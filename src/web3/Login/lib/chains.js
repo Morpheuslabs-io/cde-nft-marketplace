@@ -199,7 +199,7 @@ const supportedChains = [
     network: 'mumbai',
     chain_id: 80001,
     network_id: 80001,
-    rpc_url: 'https://rpc.ankr.com/polygon_mumbai',
+    rpc_url: process.env.MUMBAI_URL,
     native_currency: {
       symbol: 'MATIC',
       name: 'MATIC',
