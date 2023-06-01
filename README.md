@@ -18,6 +18,8 @@
 
 </div>
 
+### Try it with Morpheus Labs SEED<br/>[![Open in SEED](https://morpheus-seed.infura-ipfs.io/ipfs/QmdLQKk1ygXJLN9aLp5gmyUi7sz51Cv8nY4dCgLWTiUr6R)](https://bps.morpheuslabs.io/pages/uploadproject/?f=factorypg214podmbojsjrs&p=https%3A%2F%2Fgithub.com%2FMorpheuslabs-io%2Fcde-nft-marketplace.git)
+
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
