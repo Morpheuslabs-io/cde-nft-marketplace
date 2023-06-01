@@ -45,10 +45,11 @@ https://mumbai.polygonscan.com/address/0x59C8C0cd41C9423b22cE414e4422130A796b3d6
 - Marketplace owner can set platform fee
 - Buyer can purchase token and list it again for sale
 
-<img src="images/Prev1.png" width="45%"></img>
-<img src="images/Prev2.png" width="45%"></img>
-<img src="images/Prev3.png" width="45%"></img>
-<img src="images/Prev4.png" width="45%"></img>
+<img src="images/img1.png" width="50%"></img>
+<img src="images/Prev4.png" width="50%"></img>
+<img src="images/Prev3.png" width="50%"></img>
+<img src="images/Prev1.png" width="50%"></img>
+<img src="images/Prev2.png" width="50%"></img>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
