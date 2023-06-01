@@ -10,9 +10,6 @@
 
 <br />
 <div align="center">
-  <a href="#">
-    <img src="https://bps.morpheuslabs.io/mor-labs-logo-b.65b9fc9f17b946881e7e.png" alt="Logo" width="120" height="36">
-  </a>
 
   <h3 align="center">NFT Marketplace</h3>
 
