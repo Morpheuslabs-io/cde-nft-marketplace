@@ -32,11 +32,11 @@
 Contract is deployed on Polygon mumbai network
 
 ```sh
-Marketplace Address: 0xFC825b8f07E465c32b199Ecf5b0f3B679A4285b0
-RPC URL: https://rpc-mumbai.maticvigil.com
+Marketplace Address: 0x59C8C0cd41C9423b22cE414e4422130A796b3d67 
+RPC URL: https://you_rendpoint_name.morpheuslabs.io/your_auto_generated_api_key
 ```
 
-https://mumbai.polygonscan.com/address/0xFC825b8f07E465c32b199Ecf5b0f3B679A4285b0
+https://mumbai.polygonscan.com/address/0x59C8C0cd41C9423b22cE414e4422130A796b3d67
 
 ### ⚙️Functions:
 
@@ -59,6 +59,7 @@ https://mumbai.polygonscan.com/address/0xFC825b8f07E465c32b199Ecf5b0f3B679A4285b
 - [Material UI](https://mui.com/)
 - [Hardhat](https://hardhat.org/)
 - [Solidity](https://docs.soliditylang.org/)
+- [MLSEED](https://www.morpheuslabs.io/introduction-to-ml/) 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -66,27 +67,18 @@ https://mumbai.polygonscan.com/address/0xFC825b8f07E465c32b199Ecf5b0f3B679A4285b
 
 Below are instructions to get started
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/ac12644/NFT-Marketplace.git
-   ```
-2. Install packages
+
+1. Install packages
    ```sh
    yarn
    ```
-3. Add environment variables, also you will require dedicated subdomain for IPFS from infura
-   ```sh
-   PRIVATE_KEY=
-   MUMBAI_URL= https://rpc-mumbai.maticvigil.com/
-   INFURA_IPFS_ID=
-   INFURA_IPFS_SECRET=
-   INFURA_IPFS_DOMAIN=
-   ```
-4. Deploy smart contract
+2. Add environment variables in your .env file (follow the .env.example ), also you will require dedicated subdomain for IPFS from infura
+
+3. Deploy smart contract
    ```sh
    npx hardhat run scripts/deploy.js --network mumbai
    ```
-5. Run application
+4. Run application
    ```sh
    yarn run dev
    ```
@@ -345,7 +337,6 @@ async function onChange(e) {
     }
   }
 
-
 ```
 
 3. Get listed NFTs
@@ -353,7 +344,7 @@ async function onChange(e) {
 ```javascript
 async function loadNFTs() {
   const provider = new ethers.providers.JsonRpcProvider(
-    'https://rpc-mumbai.maticvigil.com',
+    'https://rpc-mumbai.maticvigil.com',    /* your RPC domain variable here*/
   );
   const marketContract = new ethers.Contract(
     marketAddress,
@@ -459,7 +450,8 @@ Don't forget to give the project a star! Thanks again!
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+5. Sumbmit your application to SEED AppLibrary, you will get your App featured and get more incentives (`https://docs.morpheuslabs.io/docs/submit-app-to-the-app-store`)
+6. Join Morpheus Labs SEED discord (`https://discord.gg/QSpZg6qx`)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
  
